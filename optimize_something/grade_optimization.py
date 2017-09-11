@@ -7,6 +7,9 @@ Usage:
 """
 
 import pytest
+import sys
+sys.path.append('../')
+
 from grading.grading import grader, GradeResult, run_with_timeout, IncorrectOutput
 
 import os
